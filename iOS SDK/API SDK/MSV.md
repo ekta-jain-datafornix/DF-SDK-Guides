@@ -59,7 +59,7 @@ ConnectionManager.instance.createUserToken(CreateTokenRequestModel(token: "<toke
 
 ### Get OCR image data using MSV
 
-### Intialization and Accessing Methods
+### Intialization and Accessing Methods.
 - `import DFAPIFramework` in your class or file to use the framework.
 - Now access all of its methods using `ConnectionManager.instance`
 
