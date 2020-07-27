@@ -49,3 +49,10 @@ DataFornixSdk.getOcrResultMSV(
 
             })
 ```
+- Similarily you can call for selfie comaprison with CompareSelfieImageRequest Request model in framework:
+```sh
+DataFornixSdk.sendImageForSelfieCheck
+```
+- Similarily you can call for Video liveliness check with converting video into base64 String:
+```sh
+DataFornixSdk.sendVideoForLivelinessCheck
