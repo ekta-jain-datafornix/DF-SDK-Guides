@@ -17,7 +17,7 @@ allprojects {
 ```
 - In your app level `build.gradle` add this dependency:
 ```sh
-implementation 'dfapimodule:dfapimodule:1.4.0'
+implementation 'dfapimodule:dfapimodule:1.5.0'
 ```
 - Initialise `DataFornixSdk` object with your `apiToken`
 ```sh
