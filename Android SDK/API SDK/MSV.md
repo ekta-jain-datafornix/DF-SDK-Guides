@@ -53,6 +53,6 @@ DataFornixSdk.getOcrResultMSV(
 ```sh
 DataFornixSdk.sendImageForSelfieCheck
 ```
-- Similarily you can call for Video liveliness check with converting video into base64 String (Add prefix on Base64 String image data:video/mp4;base64,):
+- Similarily you can call for Video liveliness check with converting video into base64 String (Add prefix on Base64 String video data:video/mp4;base64,):
 ```sh
 DataFornixSdk.sendVideoForLivelinessCheck
