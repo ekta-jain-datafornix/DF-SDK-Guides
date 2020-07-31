@@ -3,8 +3,7 @@
 ![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)
 
 
-This Data-Fornix-Mobile API SDK provides a set of methods for Android applications to authenticate user, capture, save and retrieve data.
-## Use kotlin
+This Data-Fornix-Mobile API SDK provides a set of methods (Use kotlin) for Android applications to authenticate user, capture, save and retrieve data.
 
 #### You can achieve the functionality with easy integration of following steps:
 - In your project level `build.gradle` add this dependency:
@@ -50,7 +49,7 @@ DataFornixSdk.getOcrResultMSV(
 
             })
 ```
-- Similarily you can call for selfie comaprison with ## CompareSelfieImageRequest Request model in framework (Add prefix on Base64 String image data:image/jpg;base64,):
+- Similarily you can call for selfie comaprison with CompareSelfieImageRequest Request model in framework (Add prefix on Base64 String image data:image/jpg;base64,):
 ```sh
 DataFornixSdk.sendImageForSelfieCheck
 ```
