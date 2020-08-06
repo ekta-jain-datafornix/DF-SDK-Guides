@@ -42,7 +42,11 @@ private lateinit var documentCaptureInstance: DocumentCaptureInstance
 ```
 - Initialise this object with your `sdkToken`
 ```sh
-documentCaptureInstance = DocumentCaptureInstance(this, "YOUR_SDK_TOKEN", "YOUR BASE URL")
+ documentCaptureInstance = DocumentCaptureInstance(
+                activity = this
+        )
+ documentCaptureInstance.baseUrl = "https://qat.datafornix.com/"
+ documentCaptureInstance.sdkToken = "mashreq:kcLk01Twys5WBziFkm55J4oWw43QMQ3t"
 ```
 
 #### You can customise the colour and theme of the SDK's view according to your project's user-experience.
