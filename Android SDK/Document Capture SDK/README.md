@@ -34,7 +34,7 @@ allprojects {
 ```
 - In your app level `build.gradle` add this dependency:
 ```sh
-implementation 'documentscanner:documentscanner:1.4.0'
+implementation 'documentscanner:documentscanner:1.5.0'
 ```
 - Now in your project's activity create DocumentCaptureInstance object: 
 ```sh
@@ -55,6 +55,7 @@ private lateinit var documentCaptureInstance: DocumentCaptureInstance
 ```sh
 val config = DocumentCaptureConfig()
 config.isDocumentBackCaptureRequired = true
+config.isTutorialScreenRequired = true
 config.cameraScreenBackgroundColor =
        ContextCompat.getColor(this, R.color.black)
 config.tutorialScreenBackgroundColor =
@@ -91,7 +92,18 @@ documentCaptureInstance.getPassportData(
            }
        })
 ```
+- Call `getEmiratesIdData()` function from `documentCaptureInstance` to get passport mrz parsed data
+```sh
+documentCaptureInstance.getEmiratesIdData(
+       config,
+       object : DocumentCaptureInstance.EmiratesIdCaptureListener {
+           override fun onEmiratesIdCaptureSuccess(path: List<String>, emiratesIdData: EmiratesIdData) {
+            }
 
+           override fun onEmiratesIdCaptureFailure(error: DocumentCaptureInstance.EmiratesIdCaptureError) {
+           }           
+        })
+```
 - Override `onActivityResult`:
 ```sh
 override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
