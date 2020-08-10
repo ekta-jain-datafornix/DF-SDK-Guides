@@ -92,7 +92,7 @@ documentCaptureInstance.getPassportData(
            }
        })
 ```
-- Call `getEmiratesIdData()` function from `documentCaptureInstance` to get passport mrz parsed data
+- Call `getEmiratesIdData()` function from `documentCaptureInstance` to get emirates id front and back parsed data
 ```sh
 documentCaptureInstance.getEmiratesIdData(
        config,
