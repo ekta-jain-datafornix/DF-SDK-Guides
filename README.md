@@ -14,6 +14,8 @@
  - [Selfie Check SDK](https://github.com/anandramdeo-df/DF-ReadMes/blob/master/Android%20SDK/Selfie%20Check%20SDK/README.md)
  - [Video Liveliness SDK](https://github.com/anandramdeo-df/DF-ReadMes/blob/master/Android%20SDK/Video%20Liveliness%20SDK/README.md)
  - [Vault SDK](https://github.com/anandramdeo-df/DF-ReadMes/blob/master/Android%20SDK/Vault%20SDK/README.md)
+ - [Auto Documents Scanner SDK](https://github.com/anandramdeo-df/DF-ReadMes/blob/master/Android%20SDK/Vault%20SDK/README.md)
+
  
  ## Documentation for iOS SDK's
  - [API SDK](https://github.com/anandramdeo-df/DF-ReadMes/blob/master/iOS%20SDK/API%20SDK/README.md)
